@@ -45,14 +45,6 @@ function App() {
       items.push(item)
     }
 
-    const electronics = items.filter((item) => item.category === 'electronics')
-    const clothing = items.filter((item) => item.category === 'clothing')
-    const toys = items.filter((item) => item.category === 'toys')
-
-    setElectronics(electronics)
-    setClothing(clothing)
-    setToys(toys)
-
     setItems(items);
   }
 
@@ -85,7 +77,6 @@ function App() {
         <>
           {
             <Section 
-              title={criteria} 
               items={filteredItems} 
               togglePop={togglePop} />
           }
