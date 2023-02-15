@@ -32,4 +32,4 @@ In a separate terminal execute:
 
 ### Common Problems:
 
-`If your transaction fails - You could reset your MetaMask account and try again. `
+`If your transaction fails - You could reset your MetaMask account and try again. This happens when you have already run the project once and bought something`
