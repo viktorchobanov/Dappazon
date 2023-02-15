@@ -20,16 +20,10 @@ function App() {
 
   const [searchQuery, setSearchQuery] = useState("")
 
-  const [electronics, setElectronics] = useState(null)
-  const [clothing, setClothing] = useState(null)
-  const [toys, setToys] = useState(null)
-
   const [items, setItems] = useState([])
 
   const [item, setItem] = useState({})
   const [toggle, setToggle] = useState(false)
-
-  const criteria = ""
 
   const togglePop = (item) => {
     setItem(item)
@@ -95,12 +89,6 @@ function App() {
               items={filteredItems} 
               togglePop={togglePop} />
           }
-
-          {/* <Section 
-          // title={"Clothing & Jewelry"} 
-          items={clothing} togglePop={togglePop} />
-          <Section title={"Electronics & Gadgets"} items={electronics} togglePop={togglePop} />
-          <Section title={"Toys & Gaming"} items={toys} togglePop={togglePop} /> */}
         </>
       )}
 
